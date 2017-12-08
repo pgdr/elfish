@@ -108,7 +108,7 @@ function PlotUpdatePlot(sp, gr) {
                     },
                     scaleLabel: {
                         display: true,
-                        labelString: 'Estimate (N̂)'
+                        labelString: 'Estimate'  //  Removed unicode (N̂)' #53
                     }
                 }],
                 xAxes: [{
